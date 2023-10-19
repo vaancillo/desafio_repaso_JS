@@ -81,8 +81,8 @@ function elevarAlCubo(num) {
 
 function elevar(num, exponent) {
   // Devuelve el valor de "num" elevado al exponente dado en "exponent"
-  // Tu código:
-
+    // Tu código:
+    return num ** exponent
 }
 
 function esPositivo(numero) {
@@ -90,7 +90,14 @@ function esPositivo(numero) {
   //Si el número es positivo, devolver ---> "Este numero es positivo"
   //Si el número es negativo, devolver ---> "Este numero es negativo"
   //Si el número es 0, devuelve false
-  
+  //Escribe tu código aquí
+  if (numero > 0) {
+    return "Este numero es positivo"
+  } else if (numero < 0) {
+    return "Este numero es negativo"
+  } else {
+    return false
+  }
 }
 
 /* 
